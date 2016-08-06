@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">刺绣教学系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pull_to_refresh_tap_label">点击这里刷新</string>
+    <string name="user">用户名：</string>
+    <string name="user_value">请输入用户名</string>
+    <string name="password">密码：</string>
+    <string name="password_value">请输入密码</string>
+    <string name="login">登陆系统</string>
+    <string name="administrator">管理员</string>
+    <string name="title_activity_login">刺绣教学系统登录</string>
+    <string name="title_activity_main">管理员端</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="u_name_value">请输入用户名</string>
+
+    <string name="title_activity_admin_mange">管理员管理</string>
+    <string name="m_num">管理员编号：</string>
+
+    <string name="admin_query">查找管理员</string>
+    <string name="title_activity_admin_info">管理员信息</string>
+    <string name="title_activity_update_admin">修改管理员信息</string>
+    <string name="update_admin">修改管理员</string>
+    <string name="admin_management">管理员管理</string>
+    <string name="sq_button">查询</string>
+    <string name="delete_admin">删除管理员</string>
+    <string name="help_value">本软件是一个基于动态口令认证的刺绣教学网站系统，通过以下XXX步骤你可以快速的在这里学习到刺绣的相关知识。</string>
+    <string name="about_software_value">基于动态口令认证的刺绣教学网站系统1.0版 版权所有</string>
+    <string name="chooser_image">选择图片</string>
+    <string name="b_img">选择图片</string>
+
+    <string name="title_activity_change_password">修改密码</string>
+    <string name="confirm_password">确认密码：</string>
+    <string name="change_password">修改</string>
+    <string name="change_password_cancel">取消</string>
+    <string name="u_pwd_confirm">确认密码：</string>
+    <string name="title_activity_user_main_info">教学资源详情</string>
+
+    <string name="register_user">注册学者</string>
+    <string name="learn_man">学者</string>
+    <string name="learn_man_register">学者注册</string>
+    <string name="phone">手机：</string>
+    <string name="phone_value">请输入号码</string>
+    <string name="get_code">获取短信验证码</string>
+    <string name="code">验证码：</string>
+    <string name="code_value">请输入验证码</string>
+    <string name="title_activity_person_center">个人中心</string>
+
+    <string-array name="setting_item">
+        <item>修改密码</item>
+        <item>在线学习</item>
+        <item>帮助</item>
+        <item>关于</item>
+        <item>注销</item>
+        <item>退出</item>
+    </string-array>
+    <string-array name="person_center_item">
+        <item>我的收藏</item>
+        <item>我的分享</item>
+        <item>我的阅读</item>
+        <item>我的消息</item>
+    </string-array>
+
+    <string-array name="admin_mange_item">
+        <item>管理员查询</item>
+        <item>添加管理员</item>
+    </string-array>
+
+    <string-array name="user_mange_item">
+        <item>学者查询</item>
+    </string-array>
+
+    <string-array name="admin_main_item">
+        <item>学者管理</item>
+        <item>管理员管理</item>
+        <item>系统备份</item>
+        <item>修改密码</item>
+        <item>注销</item>
+        <item>退出</item>
+    </string-array>
+    <string name="title_activity_user_query">学者查询</string>
+    <string name="title_activity_user_add">添加学者</string>
+    <string name="u_num">学者编号：</string>
+    <string name="u_num_value">请输入学者编号</string>
+    <string name="user_query">查找学者</string>
+
+    <string name="u_name">学者姓名：</string>
+    <string name="u_pwd">学者密码：</string>
+    <string name="u_phone">学者手机：</string>
+    <string name="update_user">修改学者</string>
+    <string name="delete_user">删除学者</string>
+    <string name="select_img">选择图片</string>
+    <string name="add_user">添加学者</string>
+    <string name="title_activity_admin_query">管理员查询</string>
+    <string name="title_activity_admin_add">添加管理员</string>
+    <string name="m_num_value">请输入编号</string>
+    <string name="m_phone">管理员手机：</string>
+    <string name="m_pwd">管理员密码：</string>
+    <string name="add_admin">添加管理员</string>
+    <string name="save">收藏</string>
+    <string name="title_activity_update_user">修改学者</string>
+    <string name="title_activity_user_info">学者信息</string>
+    <string name="title_activity_register">学者注册</string>
+    <string name="title_activity_user_mange">学者管理</string>
+    <string name="m_name">管理员姓名：</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="title_activity_web_view">网络资源</string>
+    <string name="title_activity_save_list">SaveListActivity</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.gxu.embroidery.AdminMainActivity">
+
+
+    <item
+        android:id="@+id/now_user_num"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_menu_search"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom|withText"
+        android:title="搜索"/>
+
+    <item
+        android:id="@+id/action_revert"
+        android:icon="@drawable/ic_menu_revert"
+        android:orderInCategory="3"
+        android:title="返回"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_menu_home"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"
+        android:title="主页"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="5"
+        app:showAsAction="ifRoom|withText"
+        android:title="帮助"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom|withText"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:title="分享"/>
+</menu>  

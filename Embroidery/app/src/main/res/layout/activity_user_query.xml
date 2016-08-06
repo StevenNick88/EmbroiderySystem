@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/query_back"
+    android:id="@+id/query_book">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/u_num"
+            android:text="@string/u_num" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/u_num_value"
+            android:hint="@string/u_num_value" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/btn_style"
+            android:text="@string/user_query"
+            android:id="@+id/user_query" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/user_list_lv"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        ></ListView>
+
+
+</LinearLayout>

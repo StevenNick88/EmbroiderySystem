@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "com.gxu.embroidery"
+        minSdkVersion 8
+//        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/values-en'] } }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    compile files('libs/json-lib-2.2.2-jdk15.jar')
+    compile files('libs/mframework.jar')
+    compile files('libs/ShareSDK-Bluetooth-2.5.0.jar')
+    compile files('libs/ShareSDK-Core-2.5.0.jar')
+    compile files('libs/ShareSDK-Douban-2.5.0.jar')
+    compile files('libs/ShareSDK-Dropbox-2.5.0.jar')
+    compile files('libs/ShareSDK-Email-2.5.0.jar')
+    compile files('libs/ShareSDK-Evernote-2.5.0.jar')
+    compile files('libs/ShareSDK-Facebook-2.5.0.jar')
+    compile files('libs/ShareSDK-FacebookMessenger-2.5.0.jar')
+    compile files('libs/ShareSDK-Flickr-2.5.0.jar')
+    compile files('libs/ShareSDK-Foursquare-2.5.0.jar')
+    compile files('libs/ShareSDK-GooglePlus-2.5.0.jar')
+    compile files('libs/ShareSDK-Instagram-2.5.0.jar')
+    compile files('libs/ShareSDK-Instapaper-2.5.0.jar')
+    compile files('libs/ShareSDK-KaiXin-2.5.0.jar')
+    compile files('libs/ShareSDK-KakaoStory-2.5.0.jar')
+    compile files('libs/ShareSDK-KakaoTalk-2.5.0.jar')
+    compile files('libs/ShareSDK-Line-2.5.0.jar')
+    compile files('libs/ShareSDK-Linkedin-2.5.0.jar')
+    compile files('libs/ShareSDK-Mingdao-2.5.0.jar')
+    compile files('libs/ShareSDK-NetEaseMicroBlog-2.5.0.jar')
+    compile files('libs/ShareSDK-Pinterest-2.5.0.jar')
+    compile files('libs/ShareSDK-Pocket-2.5.0.jar')
+    compile files('libs/ShareSDK-QQ-2.5.0.jar')
+    compile files('libs/ShareSDK-QZone-2.5.0.jar')
+    compile files('libs/ShareSDK-Renren-2.5.0.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.5.0.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.5.0.jar')
+    compile files('libs/ShareSDK-SohuSuishenkan-2.5.0.jar')
+    compile files('libs/ShareSDK-SouhuMicroBlog-2.5.0.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.5.0.jar')
+    compile files('libs/ShareSDK-Tumblr-2.5.0.jar')
+    compile files('libs/ShareSDK-Twitter-2.5.0.jar')
+    compile files('libs/ShareSDK-VKontakte-2.5.0.jar')
+    compile files('libs/ShareSDK-Wechat-2.5.0.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.5.0.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.5.0.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.5.0.jar')
+    compile files('libs/ShareSDK-WhatsApp-2.5.0.jar')
+    compile files('libs/ShareSDK-Yixin-2.5.0.jar')
+    compile files('libs/ShareSDK-Yixin-Core-2.5.0.jar')
+    compile files('libs/ShareSDK-Yixin-Moments-2.5.0.jar')
+    compile files('libs/ShareSDK-YouDao-2.5.0.jar')
+    compile files('libs/sun.misc.BASE64Decoder.jar')
+    compile files('libs/android-query-full.0.26.7.jar')
+}

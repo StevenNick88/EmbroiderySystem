@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/query_back"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_num"
+            android:text="@string/m_num" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_num_value"
+            android:hint="@string/m_num_value" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/btn_style"
+            android:singleLine="true"
+            android:text="@string/admin_query"
+            android:id="@+id/admin_query" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/admin_list_lv"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+     ></ListView>
+
+
+</LinearLayout>

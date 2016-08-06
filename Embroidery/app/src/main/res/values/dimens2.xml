@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="headerbar_elevation">4dp</dimen>
+</resources>
